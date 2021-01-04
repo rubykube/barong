@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rubykube/vault-rails
-  revision: b5e6570d1268fe0153b72200bbc58c5254d6c848
+  revision: 167283b25c34ba8a61ce2ad505f68dced3189f43
   specs:
     vault-rails (0.6.0)
       rails (>= 4.1)
@@ -78,7 +78,7 @@ GEM
       amq-protocol (~> 2.3, >= 2.3.1)
     byebug (11.1.3)
     cancancan (2.3.0)
-    capybara (3.33.0)
+    capybara (3.34.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
@@ -136,9 +136,9 @@ GEM
       activemodel
     env-tweaks (1.0.0)
       activesupport (>= 3.0, < 6.0)
-    erubi (1.9.0)
+    erubi (1.10.0)
     eventmachine (1.2.7)
-    excon (0.76.0)
+    excon (0.78.1)
     execjs (2.7.0)
     factory_bot (4.11.1)
       activesupport (>= 3.0.0)
@@ -222,7 +222,7 @@ GEM
       domain_name (~> 0.5)
     http_parser.rb (0.6.0)
     httpclient (2.8.3)
-    i18n (1.8.5)
+    i18n (1.8.6)
       concurrent-ruby (~> 1.0)
     i18n_data (0.10.0)
     image_processing (1.11.0)
@@ -254,7 +254,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.7.0)
+    loofah (2.8.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -266,11 +266,11 @@ GEM
     method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2020.0512)
+    mime-types-data (3.2020.1104)
     mimemagic (0.3.5)
     mini_magick (4.10.1)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.5.0)
     mini_racer (0.3.1)
       libv8 (~> 8.4.255)
     minitest (5.14.2)
@@ -283,9 +283,10 @@ GEM
       mustermann (>= 1.0.0)
     mysql2 (0.5.3)
     netrc (0.11.0)
-    nio4r (2.5.3)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
+    nio4r (2.5.4)
+    nokogiri (1.11.0)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     os (1.1.1)
     peatio (0.4.5)
       amqp
@@ -305,8 +306,9 @@ GEM
       pry (~> 0.13.0)
     pry-rails (0.3.9)
       pry (>= 0.10.4)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     puma (3.12.6)
+    racc (1.5.2)
     rack (2.2.3)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -349,7 +351,7 @@ GEM
     recaptcha (5.5.0)
       json
     redis (4.2.1)
-    regexp_parser (1.7.1)
+    regexp_parser (1.8.2)
     representable (3.0.4)
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
@@ -360,9 +362,9 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     retriable (3.1.2)
-    rspec-core (3.9.2)
+    rspec-core (3.9.3)
       rspec-support (~> 3.9.3)
-    rspec-expectations (3.9.2)
+    rspec-expectations (3.9.4)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-mocks (3.9.1)
@@ -376,7 +378,7 @@ GEM
       rspec-expectations (~> 3.9.0)
       rspec-mocks (~> 3.9.0)
       rspec-support (~> 3.9.0)
-    rspec-support (3.9.3)
+    rspec-support (3.9.4)
     ruby-vips (2.0.17)
       ffi (~> 1.9)
     ruby2_keywords (0.0.2)
@@ -402,7 +404,7 @@ GEM
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    sprockets-rails (3.2.1)
+    sprockets-rails (3.2.2)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
@@ -413,7 +415,7 @@ GEM
       faraday (~> 0.9)
       jwt (>= 1.5, <= 2.5)
       nokogiri (>= 1.6, < 2.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.9)
       thread_safe (~> 0.1)
     uber (0.1.0)
     uglifier (4.2.0)
@@ -432,7 +434,7 @@ GEM
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    xml-simple (1.1.5)
+    xml-simple (1.1.8)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
@@ -440,7 +442,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aliyun-sdk (~> 0.7.0)
+  aliyun-sdk (~> 0.7.3)
   annotate (~> 2.7, >= 2.7.5)
   api-pagination (~> 4.8.2)
   bcrypt (~> 3.1)
@@ -449,14 +451,14 @@ DEPENDENCIES
   bump
   bunny
   cancancan (~> 2.3.0)
-  capybara (>= 3.29.0)
+  capybara (>= 3.33.0)
   carrierwave (~> 2.1, >= 2.1.0)
   countries
   email_validator (= 1.6.0)
   env-tweaks (~> 1.0.0)
   factory_bot_rails (~> 4.11, >= 4.11.1)
   faker (~> 2.1)
-  fog-aliyun (~> 0.3.5)
+  fog-aliyun (~> 0.3.18)
   fog-aws (~> 3.5.2)
   fog-core (~> 2.1.0)
   fog-google (~> 1.9.1)
@@ -505,4 +507,4 @@ RUBY VERSION
    ruby 2.6.5p114
 
 BUNDLED WITH
-   2.1.4
+   1.17.3
