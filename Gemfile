@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '~> 2.6.5'
 
-gem 'aliyun-sdk',  '~> 0.7.0'
+gem 'aliyun-sdk', '~> 0.7.3'
 gem 'api-pagination', '~> 4.8.2'
 
 gem 'env-tweaks', '~> 1.0.0'
@@ -13,7 +13,7 @@ gem 'carrierwave', '~> 2.1', '>= 2.1.0'
 # fog's core, shared behaviors without API and provider specifics
 gem 'fog-core', '~> 2.1.0'
 # alicloud support
-gem 'fog-aliyun', '~> 0.3.5'
+gem 'fog-aliyun', '~> 0.3.18'
 # aws support (amazon)
 gem 'fog-aws', '~> 3.5.2'
 # gcp support (google)
@@ -56,7 +56,7 @@ gem 'jwt', '~> 2.2'
 gem 'jwt-multisig', '~> 1.0', '>= 1.0.4'
 gem 'bunny'
 gem 'phonelib',     '~> 0.6.45'
-gem 'twilio-ruby',  '~> 5.25.4'
+gem 'twilio-ruby', '~> 5.25.4'
 gem 'vault',        '~> 0.1'
 gem 'vault-rails', git: 'https://github.com/rubykube/vault-rails'
 # Use Redis adapter to run Action Cable in production
@@ -101,7 +101,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '>= 3.29.0'
+  gem 'capybara', '>= 3.33.0'
   # gem 'selenium-webdriver'
   # gem 'chromedriver-helper'
   gem 'rspec-rails', '~> 3.9', '>= 3.9.1'
