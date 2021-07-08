@@ -101,7 +101,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '>= 3.29.0'
+  gem 'capybara', '>= 3.33.0'
   # gem 'selenium-webdriver'
   # gem 'chromedriver-helper'
   gem 'rspec-rails', '~> 3.9', '>= 3.9.1'
