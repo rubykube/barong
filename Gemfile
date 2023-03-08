@@ -20,7 +20,7 @@ gem 'fog-aws', '~> 3.5.2'
 gem 'fog-google', '~> 1.9.1'
 
 gem 'kycaid'
-gem 'sidekiq', '>= 6.0.7'
+gem 'sidekiq', '>= 6.1.1'
 # GLI
 gem 'gli', '~> 2.19.0'
 ##
@@ -43,14 +43,14 @@ gem 'maxmind-db', '~> 1.0'
 
 gem 'kaminari', '>= 1.2.1'
 gem 'peatio', '~> 0.4.4'
-gem 'rack-cors', '~> 1.0.2'
+gem 'rack-cors', '~> 1.0.6'
 
 # REST-like API framework for Ruby
-gem 'grape', '~> 1.4'
+gem 'grape', '~> 1.4', '>= 1.4.0'
 gem 'grape-entity', '~> 0.8'
-gem 'grape-swagger', '~> 1.2'
-gem 'grape-swagger-entity', '~> 0.5'
-gem 'grape_logging', '~> 1.8'
+gem 'grape-swagger', '~> 1.2', '>= 1.2.1'
+gem 'grape-swagger-entity', '~> 0.5', '>= 0.5.1'
+gem 'grape_logging', '~> 1.8', '>= 1.8.3'
 gem 'memoist', '~> 0.16'
 gem 'jwt', '~> 2.2'
 gem 'jwt-multisig', '~> 1.0', '>= 1.0.4'
@@ -101,7 +101,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '>= 3.29.0'
+  gem 'capybara', '>= 3.33.0'
   # gem 'selenium-webdriver'
   # gem 'chromedriver-helper'
   gem 'rspec-rails', '~> 3.9', '>= 3.9.1'
