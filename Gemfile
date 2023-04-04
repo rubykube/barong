@@ -3,24 +3,24 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '~> 2.6.5'
 
-gem 'aliyun-sdk',  '~> 0.7.0'
+gem 'aliyun-sdk', '~> 0.7.3'
 gem 'api-pagination', '~> 4.8.2'
 
-gem 'env-tweaks', '~> 1.0.0'
+gem 'env-tweaks', '~> 1.0.1'
 
 # storage related gems
-gem 'carrierwave', '~> 2.1', '>= 2.1.0'
+gem 'carrierwave', '~> 2.1', '>= 2.1.1'
 # fog's core, shared behaviors without API and provider specifics
 gem 'fog-core', '~> 2.1.0'
 # alicloud support
-gem 'fog-aliyun', '~> 0.3.5'
+gem 'fog-aliyun', '~> 0.3.18'
 # aws support (amazon)
 gem 'fog-aws', '~> 3.5.2'
 # gcp support (google)
 gem 'fog-google', '~> 1.9.1'
 
 gem 'kycaid'
-gem 'sidekiq', '>= 6.0.7'
+gem 'sidekiq', '>= 7.0.0'
 # GLI
 gem 'gli', '~> 2.19.0'
 ##
@@ -29,11 +29,11 @@ gem 'cancancan', '~> 2.3.0'
 
 gem 'hiredis', '~> 0.6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.12', '>= 3.12.6'
+gem 'puma', '~> 4.3', '>= 4.3.12'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -43,20 +43,20 @@ gem 'maxmind-db', '~> 1.0'
 
 gem 'kaminari', '>= 1.2.1'
 gem 'peatio', '~> 0.4.4'
-gem 'rack-cors', '~> 1.0.2'
+gem 'rack-cors', '~> 1.0.6'
 
 # REST-like API framework for Ruby
-gem 'grape', '~> 1.4'
-gem 'grape-entity', '~> 0.8'
-gem 'grape-swagger', '~> 1.2'
-gem 'grape-swagger-entity', '~> 0.5'
-gem 'grape_logging', '~> 1.8'
+gem 'grape', '~> 1.4', '>= 1.4.0'
+gem 'grape-entity', '~> 0.8', '>= 0.8.1'
+gem 'grape-swagger', '~> 1.2', '>= 1.2.1'
+gem 'grape-swagger-entity', '~> 0.5', '>= 0.5.1'
+gem 'grape_logging', '~> 1.8', '>= 1.8.3'
 gem 'memoist', '~> 0.16'
 gem 'jwt', '~> 2.2'
 gem 'jwt-multisig', '~> 1.0', '>= 1.0.4'
 gem 'bunny'
 gem 'phonelib',     '~> 0.6.45'
-gem 'twilio-ruby',  '~> 5.25.4'
+gem 'twilio-ruby', '~> 5.25.4'
 gem 'vault',        '~> 0.1'
 gem 'vault-rails', git: 'https://github.com/rubykube/vault-rails'
 # Use Redis adapter to run Action Cable in production
@@ -101,7 +101,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '>= 3.29.0'
+  gem 'capybara', '>= 3.33.0'
   # gem 'selenium-webdriver'
   # gem 'chromedriver-helper'
   gem 'rspec-rails', '~> 3.9', '>= 3.9.1'
