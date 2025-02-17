@@ -29,7 +29,7 @@ gem 'cancancan', '~> 2.3.0'
 
 gem 'hiredis', '~> 0.6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
+gem 'rails', '~> 7.0.0'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
@@ -46,7 +46,7 @@ gem 'peatio', '~> 0.4.4'
 gem 'rack-cors', '~> 1.0.2'
 
 # REST-like API framework for Ruby
-gem 'grape', '~> 1.4'
+gem 'grape', '~> 2.1', '>= 2.1.0'
 gem 'grape-entity', '~> 0.8'
 gem 'grape-swagger', '~> 1.2'
 gem 'grape-swagger-entity', '~> 0.5'
