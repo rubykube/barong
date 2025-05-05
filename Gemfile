@@ -104,7 +104,7 @@ group :test do
   gem 'capybara', '>= 3.29.0'
   # gem 'selenium-webdriver'
   # gem 'chromedriver-helper'
-  gem 'rspec-rails', '~> 3.9', '>= 3.9.1'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
   gem 'shoulda-matchers', '~> 4.0.1.0'
   gem 'rails-controller-testing', '>= 1.0.5'
 end
