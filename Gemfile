@@ -87,7 +87,7 @@ gem 'pry-rails'
 group :development, :test do
   # Call 'byebug' or 'binding.pry' anywhere in the code to stop execution and get a debugger console
   gem 'pry-byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'factory_bot_rails', '~> 4.11', '>= 4.11.1'
+  gem 'factory_bot_rails', '~> 6.5', '>= 6.5.0'
   gem 'faker',              '~> 2.1'
 end
 
