@@ -29,7 +29,7 @@ gem 'cancancan', '~> 2.3.0'
 
 gem 'hiredis', '~> 0.6.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
@@ -41,7 +41,7 @@ gem 'mini_racer', platforms: :ruby
 
 gem 'maxmind-db', '~> 1.0'
 
-gem 'kaminari', '>= 1.2.1'
+gem 'kaminari', '>= 1.2.2'
 gem 'peatio', '~> 0.4.4'
 gem 'rack-cors', '~> 1.0.2'
 
@@ -95,7 +95,7 @@ group :development do
   gem 'grape_on_rails_routes', '~> 0.3.2'
   gem 'web-console', '>= 3.7.0'
   gem 'listen',       '>= 3.0.5', '< 3.2'
-  gem 'annotate', '~> 2.7', '>= 2.7.5'
+  gem 'annotate', '~> 3.2', '>= 3.2.0'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
